@@ -2,7 +2,7 @@
 
 - Categories may have their subcategories, and subcategories may also have subcategories.
 
-# The Task is Building a RESTful APIs from Scratch using scratch using a Python
+## The Task is Building a RESTful APIs from Scratch using scratch using Python
 
 - The Entities are "Category" and "Product".
 - The Category can have multiple child categories.

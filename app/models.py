@@ -10,10 +10,10 @@ class Category(models.Model):
         verbose_name_plural = "categories"    
 
     def __str__(self):
-        path = [f"{self.name} (#{str(self.id)})"]
+        path = [f'{self.name} (#{self.id})']
         parent = self.parent
         while parent is not None:
-            path.append(f"{parent.name} (#{str(parent.id)})")
+            path.append(f'{parent.name} (#{parent.id})')
             parent = parent.parent
         return ' > '.join(path[::-1])
 
